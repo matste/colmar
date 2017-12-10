@@ -76,6 +76,9 @@ body {
   background-color: #F6F4F3;
 }
 
+
+/* ROW ONE SECTION */
+
 .row1cont {
   display: flex;
   background-color: #e9e9e9;
@@ -83,7 +86,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  height: 375px;
+  height: 450px;
 }
 
 .row1{
@@ -96,7 +99,7 @@ body {
 }
 
 .bannerimg {
-  width: 50%;
+  width: 60%;
   height: 100%;
   background-image: url("../images/banner.jpg");
   background-size: cover;
@@ -105,7 +108,7 @@ body {
 }
 
 .bannertext{
-  width:45%;
+  width:40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,13 +119,15 @@ body {
   font-family: arial;
   font-weight: 700;
   width: 100%;
-  color: #F24236;
+  line-height: 2.3rem;
+  color: #048BA8;
 }
 
 .bannertext h3 {
   font-family: arial;
-  width: 60%;
+  width: 75%;
   font-size: 1.2rem;
+  line-height: 1.75rem;
   margin-top: 1rem;
 }
 
@@ -132,7 +137,7 @@ body {
   padding: 0.8rem 1rem;
   margin-top: 2rem;
   text-align: center;
-  transition: background-color 200ms ease-in-out 0s;
+  transition: background-color 150ms linear 0s;
 }
 
 .bannerbtn span {
@@ -144,4 +149,57 @@ body {
 
 .bannerbtn:hover {
   background-color: #F24236;
+}
+
+
+/* ROW 2 SECTION */
+
+
+.row2cont{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.row2left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  border: 1px dotted red;
+  padding: 32px 24px;
+}
+
+.row2left img{
+  width: 100%;
+}
+
+.row2left h2{
+  font-family: arial;
+  font-size: 3rem;
+  font-color: #048BA8;
+}
+
+
+.row2right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  border: 1px dotted green;
 }
