@@ -1,0 +1,147 @@
+/*  Document Styles  */
+html{
+  font-size: 16px;
+}
+
+body {
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Top Navigation Bar with logo */
+.topmenu {
+  height: 64px;
+  width: 960px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2{
+  font-family: arial;
+  letter-spacing: .1rem;
+}
+
+.logo img{
+  height: 2rem;
+  width: auto;
+  margin-left: 1.5rem;
+}
+
+.bold {
+  font-weight: 800;
+  color: #F24236;
+}
+
+.light{
+  font-weight: 300;
+  color: #999999;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 0.1rem;
+  font-family: arial;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  transition: background-color 0.2s ease-in-out 0s;
+}
+
+.navigation ul li:hover {
+  background-color: #F6F4F3;
+}
+
+.row1cont {
+  display: flex;
+  background-color: #e9e9e9;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 375px;
+}
+
+.row1{
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;;
+}
+
+.bannerimg {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.bannertext{
+  width:45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bannertext h1 {
+  font-size: 2rem;
+  font-family: arial;
+  font-weight: 700;
+  width: 100%;
+  color: #F24236;
+}
+
+.bannertext h3 {
+  font-family: arial;
+  width: 60%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.bannerbtn {
+  background-color: #048BA8;
+  width: 15rem;
+  padding: 0.8rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  transition: background-color 200ms ease-in-out 0s;
+}
+
+.bannerbtn span {
+  color: white;
+  font-family: arial;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bannerbtn:hover {
+  background-color: #F24236;
+}
