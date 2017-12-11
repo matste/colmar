@@ -380,7 +380,7 @@ body {
   background-color: white;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -400,4 +400,37 @@ body {
 
 .row4leftimg video{
   width: 100%;
+}
+
+.r24 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 960px;
+}
+
+.r14 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    width: 100%;
+}
+
+.r14 h1{
+  font-family: arial;
+  font-size: 1.75rem;
+  color: #F24236;
+  font-weight: 700;
+}
+
+.row2left h3{
+  font-family: arial;
+  font-size: 1.3rem;
+  color: #048BA8;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
 }
