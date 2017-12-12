@@ -398,7 +398,36 @@ justify-content: flex-start;
     content: url("../images/information-guest-lecture-mobile.jpg");
   }
 
+  .row2right {
+    padding-bottom: 2rem;
+  }
 
+  .widethumb {
+    flex-direction: column;
+  }
+
+  .widethumb:hover {
+    background-color: white;
+    box-shadow: 0px 0px 0px #ffffff;
+  }
+
+  .widethumbimg {
+    width: 100%;
+  }
+
+  .widethumbtext {
+    width: 100%;
+  }
+
+  .widethumbtext h3 {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .widethumbtext p {
+    color: black;
+  }
 
 }/*END OF ROW 2 media queries*/
 
@@ -496,6 +525,62 @@ justify-content: flex-start;
 .r3 {
   margin-top: 2rem;
 }
+
+
+@media only screen and (max-width:980px){
+
+  .row3 {
+    width: 480px;
+  }
+
+  .thumb img{
+    display: none;
+  }
+
+  .thumb h3 {
+    display: none;
+  }
+
+  .thumb p {
+    display: none;
+  }
+
+  .r2 {
+    flex-direction: column;
+  }
+
+  .thumb {
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 0px 0px #aaaaaa;
+  }
+
+  .thumb:hover {
+    background-color:white;
+  }
+
+  .mid {
+    margin: 0.5rem 0rem;
+  }
+
+  .thumb h2 {
+    margin: 1rem 0rem;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: black;
+  }
+
+  .r3 {
+    margin-top: 0.5rem;
+  }
+
+
+}/*END of Row 3 media inquiry*/
+
+
 
 /* ROW 4 section */
 
