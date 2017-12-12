@@ -237,9 +237,6 @@ justify-content: flex-start;
 }/*end of media query for row2*/
 
 
-
-
-
 /* ROW 2 SECTION */
 
 .row2cont{
@@ -364,6 +361,18 @@ justify-content: flex-start;
 .widethumbtext a:hover {
   text-decoration: underline;
 }
+
+
+@media only screen and (max-width:980px){
+
+  .row2left {
+    display: none;
+  }
+
+
+
+}/*END OF ROW 2 media queries*/
+
 
 /*ROW 3 section */
 
