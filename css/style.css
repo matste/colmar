@@ -696,6 +696,10 @@ justify-content: flex-start;
     width: 100%;
   }
 
+  .r24 {
+    width: 100%;
+  }
+
   .row2rightbot{
     display: none;
   }
